@@ -150,7 +150,8 @@ a {
   font-size: 2.25rem;
   line-height: 47.15px;
   color: #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 25px 0; }
 
 .ba-about__text {
   font-family: 'PT Sans', sans-serif;
@@ -159,7 +160,7 @@ a {
   color: #665f60;
   padding-top: 75px; }
 
-.ba-about__btn {
+.ba-btn {
   width: 195px;
   height: 50px;
   border: 1px solid #7d7a7c;
@@ -171,3 +172,87 @@ a {
   font-size: 1.25rem;
   font-style: italic;
   color: #7d7a7c; }
+
+.ba-services {
+  position: relative;
+  background-color: #ebebeb; }
+
+.ba-services .ba-row + .ba-row {
+  margin-top: 0; }
+
+.ba-services-card {
+  height: 400px;
+  padding-top: 95px;
+  text-align: center; }
+
+.ba-services .ba-row:first-child .ba-col-4:first-child {
+  background-color: #dbdbdb; }
+
+.ba-services .ba-row:nth-child(2) .ba-col-4:nth-child(2) {
+  background-color: #dbdbdb; }
+
+.ba-services__title {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #665f60;
+  text-transform: uppercase; }
+
+.ba-services__text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.125rem;
+  font-style: italic;
+  color: #665f60; }
+
+.ba-services-info {
+  position: absolute;
+  top: 0;
+  right: 12.2em;
+  background-image: url(../img/services-info.jpg);
+  background-size: cover;
+  width: 410px;
+  height: 800px;
+  padding-top: 115px;
+  text-align: center; }
+
+.ba-section__text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.125rem;
+  font-style: italic;
+  color: #fff;
+  margin-top: 105px; }
+
+.ba-works {
+  background-image: url(../img/works-bg.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 60px; }
+
+.ba-works .ba-section__title {
+  margin-bottom: 60px; }
+
+.ba-slide img {
+  display: block;
+  margin: 0 auto; }
+
+.btn-wt {
+  border: 1px solid #fff;
+  color: #fff; }
+
+.slick-dots li {
+  margin: 0; }
+
+.slick-dots li.slick-active button::before {
+  content: url(../img/btn-active.png);
+  margin-top: 30px; }
+
+.slick-dots li button::before {
+  content: url(../img/btn-default.png);
+  margin-top: 30px; }
+
+.slick-prev::before {
+  content: url(../img/btn-prev.png); }
+
+.slick-next::before {
+  content: url(../img/btn-next.png); }
